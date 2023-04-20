@@ -4,6 +4,10 @@ Financial Payment Fraud Detection System implemented using a Deep Neural Network
 The system is trained on a dataset that contains information about financial transactions, including the type of transaction, the amount, and the balance before and after the transaction, among other features. The goal of the system is to predict whether a given transaction is fraudulent or not.
 
 
+Dataset - https://www.kaggle.com/datasets/arunavakrchakraborty/financial-payment-services-fraud-data
+API Command - kaggle datasets download -d arunavakrchakraborty/financial-payment-services-fraud-data
+
+
 The implementation involves loading the dataset and preprocessing it by dropping unnecessary columns, converting categorical variables to numerical variables, and normalizing the data. The preprocessed data is then split into training and testing sets, and a DNN model is trained on the training set using the Keras API with TensorFlow as the backend.
 
 
