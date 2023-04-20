@@ -8,6 +8,9 @@ Dataset - https://www.kaggle.com/datasets/arunavakrchakraborty/financial-payment
 
 API Command - kaggle datasets download -d arunavakrchakraborty/financial-payment-services-fraud-data
 
+![image](https://user-images.githubusercontent.com/58546519/233363477-b9254137-b23f-4818-8f95-843dfbb65f80.png)
+
+
 
 The implementation involves loading the dataset and preprocessing it by dropping unnecessary columns, converting categorical variables to numerical variables, and normalizing the data. The preprocessed data is then split into training and testing sets, and a DNN model is trained on the training set using the Keras API with TensorFlow as the backend.
 
